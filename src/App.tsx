@@ -3,8 +3,10 @@ import Navbar from './Navbar/Navbar';
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
+    <div className="container mx-auto">
+      <header>
+        <Navbar />
+      </header>
       <h1 className="text-6xl font-bold underline">
         Hello world!
       </h1>
