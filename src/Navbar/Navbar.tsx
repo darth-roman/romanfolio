@@ -1,4 +1,4 @@
-import INavItems from "../Types/NavItems"
+import INavItems from "../Types/INavItems"
 import NavItem from "./NavItem"
 
 const Navbar = () => {
