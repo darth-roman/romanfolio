@@ -8,7 +8,7 @@ module.exports = {
     colors:{
       trasparent: 'transparent',
       primary: '#22c55e',
-      secondary: '#632336',
+      secondary: {1:'#632336', 2: '#7d2a44', 3: '#471825'},
       fail: '#ef4444',
       pass: '#22c55e',
       dark: {
