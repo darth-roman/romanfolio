@@ -1,13 +1,15 @@
 import Pic from "./IPic";
 
-export default interface Project{
+export default interface IProject{
     title: string,
     isLive: boolean,
     isComplete: boolean,
     linkToCode: string,
     linkToProject: string,
-    startDate: Date,
-    finishDate: Date,
+    startDate: string,
+    finishDate: string,
     limes: number,
-    pics: Pic[]
+    pics: Pic[],
+    domaine: string,
+    desc: string
 }
