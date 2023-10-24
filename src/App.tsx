@@ -2,6 +2,8 @@ import React from 'react';
 import Navbar from './Navbar/Navbar';
 import Home from './Home/Home';
 import ProjectsList from "./Projects/ProjectsList"
+import About from './About/About';
+import Education from './Education/Education';
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
         </header>
         <main>
           <Home />
+          <About />
+          <Education />
           <ProjectsList />
         </main>
 
