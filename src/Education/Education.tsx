@@ -23,8 +23,8 @@ const unis: IUniversity[] = [
 const Education = () => {
     return(
         <>
-            <h1>@Education</h1>
-            <div className="flex flex-col my-3 py-3 px-6">
+            <div className="flex flex-col my-3 py-3 px-6" id="education">
+            <h1 className="text-4xl">#Education</h1>
                 {
                     unis.map(uni => 
                         <Institute 

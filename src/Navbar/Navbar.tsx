@@ -8,7 +8,6 @@ const Navbar = () => {
         {title: "About", link: "#about"},
         {title: "Education", link: "#education"},
         {title: "Projects", link: "#projects"},
-        {title: "Socials", link: "#socials"},
 
     ]
 

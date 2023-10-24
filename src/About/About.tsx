@@ -1,7 +1,8 @@
 const About = () => {
     return(
-        <div className="m-3 py-5 px-10 text-xl">
-            <p>
+        <div className="my-3 py-3 px-6 text-xl">
+            <h1 className="text-4xl">#About</h1>
+            <p className="m-3 py-5 px-10">
                 Lorem ipsum dolor sit amet,
                 consectetur adipisicing elit.
                 Quasi aliquid, a aliquam at consequatur ea consectetur

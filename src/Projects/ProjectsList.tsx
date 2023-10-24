@@ -8,7 +8,9 @@ const projectsList: Partial<IProject>[] = [
 ]
 const ProjectsList = () => {
     return(
-        <div className="grid grid-cols-3">
+        <>
+        <h1 className="text-4xl my-3 py-3 px-6">#Projects</h1>
+        <div className="grid grid-cols-3" id='projects'>
             {
                 projectsList.map(project => <Project 
                     title={project.title} 
@@ -25,6 +27,7 @@ const ProjectsList = () => {
                 />)
             }
         </div>
+        </>
     )
 }
 

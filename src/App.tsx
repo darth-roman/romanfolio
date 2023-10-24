@@ -4,6 +4,7 @@ import Home from './Home/Home';
 import ProjectsList from "./Projects/ProjectsList"
 import About from './About/About';
 import Education from './Education/Education';
+import Footer from './Home/Footer';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <ProjectsList />
         </main>
 
+        <Footer />
       </div>
     </div>
   );
